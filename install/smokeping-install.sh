@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# Copyright (c) 2021-2024 tteck
-# Original Author: tteck (tteckster)
-# License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# Copyright (c) 2024 tnware
+# Original Author: Tyler Woods (tnware)
+# License: AGPL-3.0
+# https://github.com/tnware/Proxmox/raw/main/AGPL-LICENSE.md
 
 source /dev/stdin <<< "$FUNCTIONS_FILE_PATH"
 color
