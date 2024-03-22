@@ -1,6 +1,6 @@
 <div align="center">
   <a href="#">
-    <img src="https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/logo.png" height="100px" />
+    <img src="https://raw.githubusercontent.com/tnware/Proxmox/main/misc/images/logo.png" height="100px" />
  </a>
 </div>
 <h2 align="center">User Submitted Guides </h2>
@@ -33,6 +33,6 @@
 
 [iGPU Transcoding In Proxmox with Jellyfin](https://www.youtube.com/watch?v=XAa_qpNmzZs)
 
-[Proxmox + NetData](<https://dbt3ch.com/books/proxmox-netdata-for-better-insights-and-notifications/page/proxmox-netdata-for-better-insights-and-notifications>)
+[Proxmox + NetData](https://dbt3ch.com/books/proxmox-netdata-for-better-insights-and-notifications/page/proxmox-netdata-for-better-insights-and-notifications)
 
-[Proxmox Homelab Series](<https://blog.kye.dev/proxmox-series>)
+[Proxmox Homelab Series](https://blog.kye.dev/proxmox-series)

@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-source <(curl -s https://raw.githubusercontent.com/tteck/Proxmox/main/misc/build.func)
-# Copyright (c) 2021-2024 tteck
-# Author: tteck
+source <(curl -s https://raw.githubusercontent.com/tnware/Proxmox/main/misc/build.func)
+# Copyright (c) 2021-2024 tnware
+# Author: tnware
 # Co-Author: MickLesk (Canbiz)
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/tnware/Proxmox/raw/main/LICENSE
 # Source: https://github.com/matze/wastebin
 
 

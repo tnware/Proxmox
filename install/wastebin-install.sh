@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-# Copyright (c) 2021-2024 tteck
-# Author: tteck
+# Copyright (c) 2021-2024 tnware
+# Author: tnware
 # Co-Author: MickLesk (Canbiz)
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/tnware/Proxmox/raw/main/LICENSE
 # Source: https://github.com/matze/wastebin
 
 source /dev/stdin <<< "$FUNCTIONS_FILE_PATH"
