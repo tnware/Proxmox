@@ -10,11 +10,13 @@ These scripts empower users to effortlessly create Linux containers or virtual m
 
 A dialog box presents choices to the user. Following selection, the script compiles and verifies input to finalize the configuration for the container or virtual machine.
 
+- All LXC instances created using this repository come pre-installed with Midnight Commander, which is a command-line tool (`mc`) that offers a user-friendly file and directory management interface for the terminal environment.
+
+- 🚨 **The scripts in the repository will no longer provide support for Proxmox VE 7 starting from July 2024 (scripts will not execute on PVE7). Subsequent <a href='https://forum.proxmox.com/threads/proxmox-ve-support-lifecycle.35755/' target='_blank' rel='noopener noreferrer'>Proxmox VE - Support Lifecycle</a>**
+
 > Exercise caution and meticulously assess scripts and automation tasks from external sources. [Discover more](./CODE-AUDIT.md)
 
 _Proxmox® is a registered trademark of Proxmox Server Solutions GmbH._
-
-
 
 ## License
 
@@ -26,11 +28,10 @@ Unless stated otherwise, all components of this project, including additional Pr
 
 ### Components Licensed Under the MIT License
 
-Certain libraries or modules within this project are under the MIT License. These are clearly identified within their respective subdirectories along with the MIT License text. These components are either used as-is or have been modified to fit the needs of this project. 
+Certain libraries or modules within this project are under the MIT License. These components are either used as-is or have been modified to fit the needs of this project. These are identified below.
 
-For example, the original **Proxmox VE Helper-Scripts** are forked from [tteck/Proxmox](https://github.com/tteck/Proxmox), which is under the MIT License. Refer to the respective `LICENSE` or `README` file for this project for more information.
+1. [tteck/Proxmox](https://github.com/tteck/Proxmox): under the MIT License. Refer to the respective `LICENSE` or `README` file for this project for more information.
 
 The MIT License is permissive and allows for these components to be integrated into AGPL-licensed projects. The original copyright notice and the license text must be included with any substantial portions of the MIT-licensed software.
 
 `SPDX-License-Identifier: AGPL-3.0-only AND MIT`
-

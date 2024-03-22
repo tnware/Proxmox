@@ -1,7 +1,13 @@
 #!/usr/bin/env bash
 
 source <(curl -s https://raw.githubusercontent.com/tnware/Proxmox/main/misc/build.func)
-# Copyright (c) 2021-2024 tteck
+#
+# Copyright (c) 2024 tnware
+# Author: Tyler Woods (tnware)
+# License: AGPL-3.0
+# https://github.com/tnware/Proxmox/raw/main/AGPL-LICENSE.md
+#
+# Copyright (c) 2001-2004 tteck (tteckster)
 # Original Author: tteck (tteckster)
 # License: MIT
 # https://github.com/tteck/Proxmox/raw/main/LICENSE
