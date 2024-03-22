@@ -2,7 +2,9 @@
 	import * as Accordion from '$lib/components/ui/accordion';
 	import AppDetails from './AppDetails.svelte';
 	import ProjectBadges from './ProjectBadges.svelte';
-
+	import * as Dialog from '$lib/components/ui/dialog';
+	let selectedApp = {};
+	let dialogOpen = false;
 	let appsData = {
 		apps: [
 			{
@@ -23,7 +25,7 @@
 				category: 'Servers',
 				type: 'lxc',
 				script_url: 'https://example.com/nginx-reverse-proxy-lxc',
-				image_url: 'https://example.com/images/nginx-reverse-proxy-lxc.png',
+				image_url: '/img/logo/nginx.png',
 				date_added: '2023-03-01',
 				last_updated: '2023-03-15',
 				variants: [
@@ -47,6 +49,11 @@
 	function getCategories(apps) {
 		const categories = apps.map((app) => app.category);
 		return [...new Set(categories)]; // Return unique categories
+	}
+
+	function selectApp(app) {
+		selectedApp = app;
+		dialogOpen = true;
 	}
 
 	let categories = getCategories(appsData.apps);
@@ -103,7 +110,25 @@
 			<ProjectBadges></ProjectBadges>
 		</div>
 	</div>
+	<h1>Grid View</h1>
+	<div class="container mx-auto mt-4 px-4">
+		<div class="-m-2 flex flex-wrap">
+			{#each appsData.apps as app}
+				<div class="w-1/2 p-2 sm:w-1/3 md:w-1/4" on:click={selectApp(app)}>
+					<!-- Set a minimum and maximum height to ensure consistency across grid items -->
+					<div
+						class="flex max-h-[200px] min-h-[200px] flex-col items-center space-y-2 rounded-lg bg-neutral-800 p-4 shadow-lg hover:bg-neutral-700"
+					>
+						<!-- Image already constrained to w-24 h-24, ensuring uniform size -->
+						<img src={app.image_url} alt={app.name} class="h-24 w-24 rounded-sm object-cover" />
+						<h3 class="text-lg font-semibold text-white">{app.name}</h3>
+					</div>
+				</div>
+			{/each}
+		</div>
+	</div>
 
+	<h1>Accordion View</h1>
 	<Accordion.Root>
 		{#each categories as category}
 			<Accordion.Item value={category} class="my-2 rounded-lg bg-neutral-800 shadow-lg">
@@ -133,3 +158,9 @@
 		{/each}
 	</Accordion.Root>
 </div>
+
+<Dialog.Root bind:open={dialogOpen}>
+	<Dialog.Content class="min-w-[900px]">
+		<AppDetails bind:app={selectedApp} />
+	</Dialog.Content>
+</Dialog.Root>
