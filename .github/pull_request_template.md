@@ -1,18 +1,31 @@
-## I wanted to make you aware that I am meticulous when it comes to merging code into the main branch, so please don't take it personally if I reject your request.
+# New Pull Request
 
-## Description
+Thank you for your contribution! We appreciate your effort to improve our project. Please fill out this simplified template to help us understand and review your changes more efficiently.
 
-Please include a summary of the change and/or which issue is fixed. 
+## Summary
 
-Fixes # (issue)
+- **Title**: Provide a concise title for your changes.
+- **Description**: Briefly describe the nature of your changes (e.g., addition, fix, improvement). Mention any specific issues your pull request addresses.
 
-## Type of change
+`Fixes # (issue number)`
 
-Please delete options that are not relevant.
+## Type of Change
 
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] New Script (Develop a new script or set of scripts that are fully functional and thoroughly tested)
-- [ ] I have performed a self-review of my code, adhering to established codebase patterns and conventions.
-- [ ] This change requires a documentation update
+Mark the type of change your pull request represents:
+
+- [ ] Bug fix
+- [X] New feature
+- [ ] Improvement
+- [ ] Documentation update
+
+## Testing
+
+Briefly describe how you have tested these changes.
+
+## Additional Information
+
+Any additional details you'd like to mention?
+
+---
+
+We're looking forward to your contribution and thank you for making Proxmox VE Helper Scripts better!

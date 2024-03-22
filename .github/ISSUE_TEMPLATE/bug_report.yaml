@@ -1,25 +1,25 @@
-name: Problems with a script.
-description: Generate a report on an issue pertaining specifically to a script. For other inquires please share them in the Discussions section.
+name: Report a Script Issue
+description: Use this form to report issues related to scripts. For other types of inquiries, please utilize the Discussions section.
 body:
   - type: markdown
     attributes:
       value: |
-        **IMPORTANT:** Failure to comply with the following guidelines may result in immediate closure.
-        - Prior to submitting, kindly search the closed issues to check if the problem you are reporting has already been addressed and resolved. If you come across a closed issue that pertains to your problem, please leave a comment on that issue instead of creating a new one.
-        - If the default Linux distribution is not adhered to, script support will be discontinued.
-        - When encountering the error message `[ERROR] in line 23: exit code *: while executing command "$@" > /dev/null 2>&1`, make sure to run the script in verbose mode to accurately determine the underlying issue.
-        - For suggestions, questions or feature/script requests, please share them in the [Discussions section.](https://github.com/tnware/Proxmox/discussions)
+        **Please Note:** We value your contribution and want to address your concerns efficiently. To help us do that, please consider the following:
+        - Check the closed issues before submitting a new one. If your issue has been addressed in a closed issue, kindly add a comment there instead of opening a new issue.
+        - Note that we only provide support for the default Linux distribution intended to be used with the app in question.
+        - If you encounter the error message `[ERROR] in line 23: exit code *: while executing command "$@" > /dev/null 2>&1`, try running the script in verbose mode to better identify the issue.
+        - For suggestions, questions, or to request new features or scripts, please use our [Discussions section.](https://github.com/tnware/Proxmox/discussions)
   - type: input
     id: guidelines
     attributes:
-      label: Please verify that you have read and understood the guidelines.
+      label: Have you reviewed the guidelines above? Please type 'yes' to confirm.
       placeholder: 'yes'
     validations:
       required: true
   - type: textarea
     id: bug
     attributes:
-      label: A clear and concise description of the issue.
+      label: Describe the issue in a clear and concise manner.
     validations:
       required: true
   - type: dropdown
@@ -27,22 +27,20 @@ body:
     validations:
       required: true
     attributes:
-      label: What settings are you currently utilizing?
+      label: Which settings are you using?
       options:
-        - 
         - Default Settings
         - Advanced Settings
   - type: markdown
     attributes:
-      value: (if Advanced Settings, please try Default Settings before creating an issue)
+      value: (If using Advanced Settings, please try with Default Settings to see if the issue persists before submitting)
   - type: dropdown
     id: distribution
     validations:
       required: true
     attributes:
-      label: Which Linux distribution are you employing?
+      label: What Linux distribution are you using?
       options:
-        - 
         - Debian 11
         - Debian 12
         - Ubuntu 20.04
@@ -51,14 +49,14 @@ body:
   - type: textarea
     id: screenshot
     attributes:
-      label: If relevant, including screenshots or a code block can be helpful in clarifying the issue.
-      placeholder: Code blocks begin and conclude by enclosing the code with three backticks (```) above and below it.
+      label: If applicable, please provide screenshots or a code snippet to illustrate the issue. Wrap code snippets with three backticks for clarity.
+      placeholder: Code blocks begin and end with three backticks above and below the code.
     validations:
       required: false
   - type: textarea
     id: reproduce
     attributes:
-      label: Please provide detailed steps to reproduce the issue.
-      placeholder: First do this, then this ...
+      label: Please outline the steps to reproduce the issue.
+      placeholder: First, do this... Then, do that...
     validations:
       required: false

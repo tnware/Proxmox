@@ -1,25 +1,25 @@
 <div align="center">
   <a href="#">
-    <img src="https://raw.githubusercontent.com/tnware/Proxmox/main/misc/images/logo.png" height="100px" />
- </a>
+    <img src="./misc/images/logo.png" height="100px" />
+  </a>
 </div>
 <h1 align="center">Proxmox VE Helper-Scripts</h1>
 
 <p align="center">
-  <a href="https://helper-scripts.com/">Website</a> | 
-  <a href="https://github.com/tnware/Proxmox/blob/main/.github/CONTRIBUTING.md">Contribute</a> |
-  <a href="https://github.com/tnware/Proxmox/blob/main/USER_SUBMITTED_GUIDES.md">Guides</a> |
-  <a href="https://github.com/tnware/Proxmox/blob/main/CHANGELOG.md">Changelog</a> |
-  <a href="https://ko-fi.com/D1D7EP4GF">Support</a>
+  <a href="#">Website</a> | 
+  <a href="./.github/CONTRIBUTING.md">Contribute</a> |
+  <a href="./USER_SUBMITTED_GUIDES.md">Guides</a> |
+  <a href="./CHANGELOG.md">Changelog</a> |
+  <a href="#">Support</a>
 </p>
 
 ---
 
-These scripts empower users to create a Linux container or virtual machine interactively, providing choices for both simple and advanced configurations. The basic setup adheres to default settings, while the advanced setup gives users the ability to customize these defaults.
+These scripts empower users to effortlessly create Linux containers or virtual machines, offering options for both straightforward and intricate configurations. The simplified setup sticks to default settings, while the detailed setup allows for customization.
 
-Options are displayed to users in a dialog box format. Once the user makes their selections, the script collects and validates their input to generate the final configuration for the container or virtual machine.
+A dialog box presents choices to the user. Following selection, the script compiles and verifies input to finalize the configuration for the container or virtual machine.
 
 <p align="center">
-Be cautious and thoroughly evaluate scripts and automation tasks obtained from external sources. <a href="https://github.com/tnware/Proxmox/blob/main/CODE-AUDIT.md">Read more</a>
+Exercise caution and meticulously assess scripts and automation tasks from external sources. <a href="./CODE-AUDIT.md">Discover more</a>
 </p>
 <sub><div align="center"> Proxmox® is a registered trademark of Proxmox Server Solutions GmbH. </div></sub>
