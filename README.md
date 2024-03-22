@@ -16,7 +16,10 @@ _Proxmox® is a registered trademark of Proxmox Server Solutions GmbH._
 
 
 
+## License
 
-# Project Licensing
+The primary license for this project is the GNU Affero General Public License v3.0 (AGPL-3.0), which applies to all parts of the project that are not explicitly under a different license.
 
-The source code for Proxmox VE Helper-Scripts is licensed under the AGPLv3 License, except for the original components from the source of this fork. For more details, see the <a href="./LICENSE.md">LICENSE</a> file.
+Certain components of this project, such as third-party libraries or modules, are licensed under the MIT License. For more details, see the <a href="./LICENSE">LICENSE</a> file.
+
+`SPDX-License-Identifier: AGPL-3.0-only AND MIT`
