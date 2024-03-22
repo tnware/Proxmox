@@ -1,17 +1,8 @@
-<div align="center">
-  <a href="#">
-    <img src="./misc/images/logo.png" height="100px" />
-  </a>
-</div>
-<h1 align="center">Proxmox VE Helper-Scripts</h1>
+![Proxmox VE Helper-Scripts Logo](./misc/images/logo-81x112.png)
 
-<p align="center">
-  <a href="#">Website</a> | 
-  <a href="./.github/CONTRIBUTING.md">Contribute</a> |
-  <a href="./USER_SUBMITTED_GUIDES.md">Guides</a> |
-  <a href="./CHANGELOG.md">Changelog</a> |
-  <a href="#">Support</a>
-</p>
+# Proxmox VE Helper-Scripts
+
+[Website](#) | [Contribute](./.github/CONTRIBUTING.md) | [Guides](./USER_SUBMITTED_GUIDES.md) | [Changelog](./CHANGELOG.md) | [Support](#)
 
 ---
 
@@ -19,7 +10,13 @@ These scripts empower users to effortlessly create Linux containers or virtual m
 
 A dialog box presents choices to the user. Following selection, the script compiles and verifies input to finalize the configuration for the container or virtual machine.
 
-<p align="center">
-Exercise caution and meticulously assess scripts and automation tasks from external sources. <a href="./CODE-AUDIT.md">Discover more</a>
-</p>
-<sub><div align="center"> Proxmox® is a registered trademark of Proxmox Server Solutions GmbH. </div></sub>
+> Exercise caution and meticulously assess scripts and automation tasks from external sources. [Discover more](./CODE-AUDIT.md)
+
+_Proxmox® is a registered trademark of Proxmox Server Solutions GmbH._
+
+
+
+
+# Project Licensing
+
+The source code for Proxmox VE Helper-Scripts is licensed under the AGPLv3 License, except for the original components from the source of this fork. For more details, see the <a href="./LICENSE.md">LICENSE</a> file.
