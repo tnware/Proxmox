@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# Copyright (c) 2021-2024 tnware
-# Author: tnware (tnwarester)
+# Copyright (c) 2021-2024 tteck
+# Original Author: tteck (tteckster)
 # License: MIT
-# https://github.com/tnware/Proxmox/raw/main/LICENSE
+# https://github.com/tteck/Proxmox/raw/main/LICENSE
 
 # Use to copy all data from a Podman Home Assistant LXC to a Docker Home Assistant LXC.
 # run from the Proxmox Shell
